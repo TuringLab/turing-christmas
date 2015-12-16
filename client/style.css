@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+body {
+  background-color: #9cd6ac;
+  color: #fff;
+  font-family: 'Oleo Script', cursive;
+  padding: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  margin:0;
+  font-size:75px;
+  line-height: 75px;
+  font-weight: 400;
+
+  margin-bottom: .5em;
+  font-weight: normal;
+  text-shadow: 0 .05em .1em #fff;
+
+}
+
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  color: #b81313;
+  margin: 10px;
+  font-size:50px;
+  line-height: 50px;
+  font-weight: 200;
+}
+
+ul {
+  margin:0 auto 30px auto;
+  max-width:700px;
+  width: 100%;
+}
+
+li {
+  font-weight: 400;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: inline-block;
+  color:#111;
+  cursor:pointer;
+  font-size: 26px;
+  padding:15px;
+  margin:25px 12px;
+  width: 130px;
+  height:130px;
+  line-height: 100px;
+  text-align:center;
+  position: relative;
+  vertical-align:top;
+}
+
+.door {
+  color:#fff;
+  font-size: 70px;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: #91c1cc;
+  box-sizing: border-box;
+  padding:15px;
+  width: 130px;
+  height:130px;
+  z-index: 1;
+}
+
+.current .door {
+  background-color: #7EAD44;
+}
+
+.current .door.open{
+  color: #7EAD44;
+}
+
+.open {
+  visibility: hidden;
+}
+
+.sq-img{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 130px;
+  height:130px;
+  z-index: 0;
+}
+
+.square{
+  width: 130px;
+  height: 130px;
+}
+
