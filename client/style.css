@@ -1,55 +1,44 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script);
-@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
 body {
-  background-color: #9cd6ac;
-  color: #fff;
-  font-family: 'Oleo Script', cursive;
-  padding: 20px;
-  font-weight: 400;
+  background-color: #9CD1D6;
+  padding: 60px 20px;
   text-align: center;
+  color: white;
 }
 
-p {
-  margin:0;
-  font-size:75px;
-  line-height: 75px;
-  font-weight: 400;
-
-  margin-bottom: .5em;
-  font-weight: normal;
-  text-shadow: 0 .05em .1em #fff;
-
-}
-
-#greeting {
-  font-family: 'Berkshire Swash', cursive;
-  color: gray;
+h1 {
+  font-family: 'Oleo Script', cursive;
+  text-shadow: 0 .05em .1em white;
+  color: #b81313;
   margin: 10px;
-  font-size:50px;
-  line-height: 50px;
+  font-size:120px;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 0 .05em .1em white;
+  margin: 10px;
+  font-size:60px;
   font-weight: 100;
 }
 
-#merry {
-  color: #b81313;
-  margin: 10px;
-  font-size:60px;
-  line-height: 60px;
-  font-weight: 200;
+p {
+  font-family: 'Great Vibes', cursive;
+  font-size:20px;
+  text-align: left;
 }
 
-#from {
-  font-family: 'Berkshire Swash', cursive;
-  color: white;
-  margin: 10px;
-  font-size:40px;
-  line-height: 40px;
-  font-weight: 200;
+#logo {
+  margin-top: -20px;
+  width: 300px;
 }
 
 ul {
-  margin: 60px auto;
+  padding: 0;
+  margin: 20px auto;
   max-width:700px;
   width: 100%;
 }
@@ -69,7 +58,7 @@ li {
   vertical-align:top;
   */
   width: 130px;
-  padding:15px;
+  padding: 5px;
   position: relative;
   display: inline-block;
 }
@@ -77,8 +66,8 @@ li {
 .christmas-hat {
   position:relative;
   z-index: 2;
-  width: 40px;
-  padding: 0 45px;
+  width: 46px;
+  padding: 0 42px;
   margin-bottom: -60px;
 }
 
